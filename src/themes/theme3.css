@@ -1,0 +1,68 @@
+/* Lavender Love */
+:root {
+  --background-color: #F8F7FF;
+  --text-color: #2D283E;
+  --primary-color-1: #B8B8FF;
+  --primary-color-2: #EEDDFF;
+  --accent-color-1: #9381FF;
+  --accent-color-2: #FF70A6;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.VQBG-Container {
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VQ-Container {
+    background-color: var(--primary-color-2);
+    border: 2px solid var(--accent-color-1);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.VQ-Button-Yes {
+    background-color: var(--primary-color-1);
+    border: none;
+    border-radius: 8px;
+    color: var(--text-color);
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    min-width: 100px;
+}
+
+.VQ-Button-No {
+    background-color: var(--primary-color-1);
+    border: none;
+    border-radius: 8px;
+    color: var(--text-color);
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+}
